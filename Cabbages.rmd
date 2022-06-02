@@ -45,6 +45,12 @@ The c52 box is higher than the c39 box. The boxes will not collide if you merge 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The c52 median is higher than 39 by 13.5 points. Plus the minimum and max is lower for C39. The first quartile for c52 is higher than the third quartile of c39.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
